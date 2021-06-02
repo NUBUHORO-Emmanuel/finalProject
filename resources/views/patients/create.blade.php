@@ -1,9 +1,12 @@
 @extends('patients.layout')
 
 @section('content')
+@include('header')
+
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
+          <a href="/index">Home</a> &nbsp;&nbsp;&nbsp;
             <h2>Add New Patient</h2>
         </div>
         <div class="pull-right">
@@ -77,6 +80,7 @@ Next skin birth place:
   <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </div>
-
+@include('footer')
 </form>
+
 @endsection

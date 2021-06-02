@@ -1,6 +1,8 @@
 @extends('patients.layout')
 
 @section('content')
+@include('header')
+<a href="/index">Home</a> &nbsp;&nbsp;&nbsp;
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
@@ -125,4 +127,5 @@
             </div>
         </div>
     </div>
+    @include('footer')
 @endsection

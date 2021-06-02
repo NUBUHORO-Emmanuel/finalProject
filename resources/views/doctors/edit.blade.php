@@ -1,12 +1,11 @@
 @extends('doctors.layout')
-
 @section('content')
 @include('header')
-<a href="index">Home</a> &nbsp;&nbsp;&nbsp;
+<a href="/index">Home</a> &nbsp;&nbsp;&nbsp;
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit Doctor</h2>
+
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('doctors.index') }}"> Back</a>
@@ -30,7 +29,8 @@
         @method('PUT')
 <fieldset>
 
-<legend> <font color="black" size="50%"><center>Doctor Information Form</center> </font></legend>
+<legend> <font color="black" size="50%"><center> Edit Doctor Information</center> </font></legend>
+
         <table>
     <tr><th>Doctor Code </th><td>
        <input type = "text" name = "doc_code" size = "30" value="{{ $doctor->doc_code }}" class="form-control" placeholder = "code Here" required></td></tr>

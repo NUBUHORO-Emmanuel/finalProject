@@ -1,13 +1,14 @@
 @extends('patients.layout')
 
 @section('content')
+
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>ONLINE PUBLIC CONSULTATION</h2>
+              <a href="index">Home</a> &nbsp;&nbsp;&nbsp;
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('patients.create') }}"> Create New Patient</a>
+                <a class="btn btn-success" href="{{ route('patients.create') }}"> Add New Patient</a>
 
             </div>
         </div>

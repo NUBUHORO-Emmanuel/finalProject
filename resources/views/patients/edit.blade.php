@@ -1,12 +1,15 @@
 @extends('patients.layout')
 
 @section('content')
+@include('header')
+
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
                 <h2>Edit Patient</h2>
             </div>
-            <div class="pull-right">
+            <div class="">
+              <a href="/index">Home</a> &nbsp;&nbsp;&nbsp;
                 <a class="btn btn-primary" href="{{ route('patients.index') }}"> Back</a>
             </div>
         </div>
@@ -81,6 +84,6 @@
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </div>
-
+@include('footer')
     </form>
 @endsection
