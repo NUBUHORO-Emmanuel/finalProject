@@ -5,10 +5,10 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2> welcome in consultation</h2>
+                <h2> <a href="/index">Home</a>  <h2> welcome in consultation</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('consults.create') }}"> Create New </a>
+              <a class="btn btn-success" href="{{ route('consults.create') }}"> Create New </a>
             </div>
         </div>
     </div>

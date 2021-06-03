@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('index');
 });
+Route::get('/home', function () {
+    return view('home');
+});
 use App\Http\Controllers\PatientController;
 Route::resource('patients', PatientController::class);
 

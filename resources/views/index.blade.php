@@ -1,10 +1,15 @@
 
+<style media="screen">
+  body{
+    background-color: #808080;
+  }
+</style>
 @include('menu')
 
-<center>
 
-<img src="image3.png"height="90%"width="80%">
-
-</center>
+  <center>
+  <img src="clinic1.jpg" alt="" height="60%"width="60%">
+  <img src="ambulance.gif" alt=""height="60%" >
+  </center>
 
 @include('footer')

@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit </h2>
+              <h2> <a href="/index">Home</a>  <h2>Edit </h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('consults.index') }}"> Back</a>
@@ -38,13 +38,13 @@
                 <input type="date" id="birthday" name="birthday" value="{{ $consult->birthday }}" size="50"><br><br>
 
                 felling of patient(Illness):<br>
-                <textarea wrap="virtual" name="illns" value="{{ $consult->ILLNS }}"
+                <textarea wrap="virtual" name="illns" value="{{ $consult->illns }}"
                 rows=5 cols=60
                 maxlength=500></textarea><br>
 
 
                 RESULT FOR YOUR CONSULTATION (consulted):<br>
-                <textarea wrap="virtual" name="ill" value="{{ $consult-> }}"
+                <textarea wrap="virtual" name="illns" value="{{ $consult->illns }}"
                 rows=5 cols=60
                 maxlength=500></textarea><br>
                 MEDICINE NEEDED (medecine):<br>

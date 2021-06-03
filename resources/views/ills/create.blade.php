@@ -2,6 +2,7 @@
 
 @section('content')
 @include('header')
+<a href="index">HOME</a>
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">

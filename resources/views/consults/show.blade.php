@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2> Show</h2>
+              <h2> <a href="/index">Home</a>  <h2> Show</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('consults.index') }}"> Back</a>
