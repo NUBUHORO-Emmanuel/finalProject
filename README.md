@@ -1,10 +1,7 @@
 # finalProject
- 18rp04845 18rp09160
-----------------------
-framework used : laravel v8
-authors :-NUBUHORO Emmanuel
-         -IRADUKUNDA Fabiol
-=====================================================================================================================================
+authors :-NUBUHORO Emmanuel  18rp04845
+         -IRADUKUNDA Fabiol  18rp09160
+=============================================================================================
 Min project name: Public Online Consultation System
 
 1. overview of our system
@@ -70,11 +67,9 @@ controllers: framecontroller.php,BaseController which will help us  to connects 
     ->Online Transport Reservation system(through this path command prompt is where it is opened)
     ->then paste composer create project laravel/laravel->then laravel is installed successful->then check laravel
       
-NB:To Login into the system you must register the required username and password before login after you will be able to enter in the system.
-
 4. AUTHORS:
 -NUBUHORO  Emmanuel 18RP04845
--IRADUKUNDA Fabiola  18RP0160
+-IRADUKUNDA Fabiola  18RP09160
 
 
 
