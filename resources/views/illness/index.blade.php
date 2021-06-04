@@ -1,3 +1,4 @@
+
 @extends('illness.layout')
 
 @section('content')
@@ -39,7 +40,7 @@
 
                     <a class="btn btn-info" href="{{ route('illness.show',$illnes->id) }}">Show</a>
 
-                    <a class="btn btn-primary" href="{{ route('illness.edit',$illnes->id) }}">Edit</a>
+                   <a class="btn btn-primary" href="{{ route('illness.edit',$illnes->id) }}">Edit</a>
 
                     @csrf
                     @method('DELETE')

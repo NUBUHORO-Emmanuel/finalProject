@@ -1,3 +1,4 @@
+
 @extends('ills.layout')
 @section('content')
 @include('header')
@@ -37,7 +38,7 @@
             <td>
                 <form action="{{ route('ills.destroy',$ill->id) }}" method="POST">
                     <a class="btn btn-info" href="{{ route('ills.show',$ill->id) }}">Show</a>
-                    <a class="btn btn-primary" href="{{ route('ills.edit',$ill->id) }}">Edit</a>
+                  
                     @csrf
                     @method('DELETE')
                     <button type="submit" class="btn btn-danger">Delete</button>
