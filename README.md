@@ -66,11 +66,22 @@ controllers: framecontroller.php,BaseController which will help us  to connects 
     ->click on htdocs
     ->Online Transport Reservation system(through this path command prompt is where it is opened)
     ->then paste composer create project laravel/laravel->then laravel is installed successful->then check laravel
-      
+    
+    
+    
+    NB : after dawnloding this project 
+            1 reneme env.example to env
+            2 then add database name "any you want"
+            3 go in cmd(command prompt of the system write ** php artisan key:generate --ansi
+            4 make composer install
+          
 4. AUTHORS:
 -NUBUHORO  Emmanuel 18RP04845
 -IRADUKUNDA Fabiola  18RP09160
 
+help :send me an email on : **nubuhoroemmy@gmail.com
+                 tel:        +250788228783
+         
 
 
 
