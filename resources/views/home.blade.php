@@ -31,7 +31,7 @@ body{
     <th bgcolor="#0080ff" > <a href="/patients/create" ><h2>Add our Information Patient</h2></a> </th>
     <th bgcolor="#00ff80"><a href="/ills"><h2>go on consultation</h2></a></th>
     <th bgcolor="#00ffff"><a href="/consults"><h2> view your result</h2></a></th>
-  <th bgcolor="#00ffbf"><a href="index"><h2>  Admin login </h2></a>
+  <th bgcolor="#00ffbf"><a href="loginform"><h2>  Admin login </h2></a>
   </th></h2>
 </tr>
 </table>

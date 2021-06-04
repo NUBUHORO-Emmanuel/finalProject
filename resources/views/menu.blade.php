@@ -22,4 +22,5 @@ button{
 <center><h1><a href="index">Home</a> &nbsp;&nbsp;&nbsp;  <a href="doctors">New Doctor </a> &nbsp;&nbsp;&nbsp;
       <a href="/patients" >New Patient</a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="/consults"> Consult patient</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="/ills">go on consultation</a></center>&nbsp;
+      <a href="/ills">go on consultation</a></center>&nbsp;
+      <a href="logout">logout</a></center>&nbsp;

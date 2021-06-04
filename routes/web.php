@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\AccountController;
+Route::post('/login', [AccountController::class,"login"]);
+Route::get('/logout', [AccountController::class,"logout"]);
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,12 +22,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/loginform', function () {
+    return view('loginform');
+});
 Route::get('/index', function () {
     return view('index');
 });
 Route::get('/home', function () {
     return view('home');
 });
+
 use App\Http\Controllers\PatientController;
 Route::resource('patients', PatientController::class);
 
