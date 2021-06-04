@@ -1,6 +1,6 @@
 # finalProject
 authors :-NUBUHORO Emmanuel  18rp04845
-         -IRADUKUNDA Fabiol  18rp09160
+         -IRADUKUNDA Fabiola  18rp09160
 =============================================================================================
 Min project name: Public Online Consultation System
 
